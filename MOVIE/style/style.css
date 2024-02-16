@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: var(--black-08, #141414);
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    color: var(--grey-75, #BFBFBF);
+    padding: 0px 160px;
+}
+.navitems{
+height: 150px;
+width: 100%;
+display:flex;
+align-items: center;
+justify-content: space-between;
+}
+.navitems-left div{
+    font-size:40px;
+    font-weight: bold;
+}
+.navitems_middle{
+    display: flex;
+    align-items: center; 
+    gap: 30px;
+    justify-content: center;
+    padding: 15px 40px;
+    font-size:18px;
+    font-weight: 400;
+    border: 4px solid var(--black-12, #1F1F1F);;
+    border-radius: 12px;
+    background-color: #0f0f0f;
+}
+.navitems_middle a{
+    text-decoration: none;
+    color:#fff ;
+}
+.navitems_middle a:hover{
+    border-bottom: 3px solid #E50000;
+}
+.navitems_middle a:active{
+    border-bottom: 3px solid #E50000;
+}
+.nav_right{
+    background-color:#1a1a1a;
+    border-radius: 10px;
+}
+.nav_right button,.nav_right input{
+    padding: 10px 20px;
+    font-size: large;
+    font-weight: 400;
+    border: none;
+    border-radius: 10px; 
+    outline: none;
+    background-color:#1a1a1a;
+    color: #BFBFBF;
+}
+.nav_right button i{
+    height:34px ;
+    width: 34px;
+}
+.singlemovie{
+    display: flex;
+    height: 330px;
+    width: 250px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 12px;
+    border: 1px solid var(--black-15, #262626);
+    background: var(--black-10, #1A1A1A);
+}
+
+.singlemovie img{       
+    height: 230px;
+    width: 200px;
+}
+.catgs{
+    display: flex;
+padding: 0px 50px;
+flex-direction: column;
+align-items: flex-start;
+gap: 50px;
+/* align-self: stretch; */
+border-radius: 12px;
+border: 1px solid #262626;
+}
+.catgs .movies{
+    padding: 10px 24px;
+    border-radius: 8px;
+    background: var(--red-45, #E50000);
+    font-size: 30px;
+font-weight: 400;
+}
+.subcontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.subcontainer .name{
+color: var(--absolute-white, #FFF);
+font-family: Manrope;
+font-size: 38px;
+font-weight: 700;
+}
+.popular,.Trending,.newrelease,.films{
+/* border: 2px solid white; */
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+gap: 20px;
+padding:20px;
+}

@@ -1,0 +1,33 @@
+.container{
+    margin: 80px 0px;
+    width: 100vw;
+    justify-content:space-around ;
+    display: flex;
+} 
+table,tr,th,td{
+    border: 2px solid #adadad ;
+    border-collapse: collapse;
+    color: #adadad;
+}
+.table1 tr td,.table2 tr td,.table3 tr td,.head,.head2,.head3{ 
+    height: 50px;
+ width: 200px;  
+text-align: center;
+font-size: large;
+}
+
+.output{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color:  #1A1A1D;
+}
+button{
+    padding:20px;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #adadad;
+    color: #950740;
+}

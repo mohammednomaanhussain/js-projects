@@ -1,0 +1,99 @@
+.container{
+    background-color:whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content:space-around;
+    width: 280px;
+    height: 440px;
+    margin: 100px auto;
+    border: 2px solid black;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 1s;
+}
+.output{
+    background-color:#131313;
+    height: 35px;
+    width: 220px;
+    text-align: end;
+    margin-bottom: 5px;
+    border: none;
+    color: #fff;
+    font-size: x-large;
+    margin-right: 30px;
+}
+.answer{
+    height: 35px;
+    width: 220px;
+    text-align: end;
+    margin-bottom: 5px;
+    border: none;
+    color: #fff;
+    background-color:#131313;
+    font-size: x-large;
+    margin-right: 30px;
+}
+.btns{
+    pointer-events: cursor;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    gap:10px;
+}
+.btns button{
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:none;
+    border-radius: 30px;
+    font-size: 15px;
+    background-color: #252525;
+    color: rgb(189, 175, 158);
+}
+button:hover{
+box-shadow: 2px 2px 6px rgba(146, 139, 139, 0.7);
+transition: 0.2s;
+}
+.fun_btn{
+    background-color: orange !important;
+    color: aliceblue !important;
+}
+.container1{
+    margin-right:10px ;
+    margin-top: 0px;
+}
+
+body.active{
+    background-color:black;
+    transition: 1s;
+}
+#toggle{
+    position: relative;
+    height: 30px;
+    width:60px;
+    background-color:#252525;
+    border-radius: 100px;
+    transition: 2s;
+    
+}
+.switch{
+position: absolute;
+background-color: gainsboro;
+height: 30px;
+width:30px ;
+border-radius: 100px;
+transform: scale(0.7);
+/* transition: 1.5s; */
+}
+#toggle.active .switch{
+left: 30px;
+}
+.container.active{
+ background-color:#131313;
+ transition: 1s;
+}
